@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".User.ViewFullOrder">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="UselessLeaf">
+    <ImageView
+        android:scaleType="centerCrop"
+        android:id="@+id/image"
+        android:src="@drawable/logo"
+        android:layout_width="match_parent"
+        android:layout_height="250sp"/>
+    <TextView
+        android:padding="20sp"
+        android:id="@+id/details4"
+        android:textSize="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<androidx.appcompat.widget.AppCompatButton
+    android:layout_width="wrap_content"
+    android:layout_gravity="end"
+    android:layout_marginEnd="10sp"
+    android:padding="10sp"
+    android:textSize="20sp"
+    android:textAllCaps="false"
+    android:id="@+id/navigate"
+    android:textStyle="bold"
+    android:textColor="@color/white"
+    android:text="Navigate to Bus"
+    android:backgroundTint="#3F51B5"
+    android:background="@drawable/curve"
+    android:layout_height="wrap_content"
+    tools:ignore="HardcodedText" />
+</LinearLayout>
+</ScrollView>

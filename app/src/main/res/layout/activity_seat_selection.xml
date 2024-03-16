@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:overScrollMode="never"
+    tools:ignore="DisableBaselineAlignment"
+    android:layout_height="match_parent">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:ignore="HardcodedText"
+    tools:context=".User.SeatSelection">
+
+
+
+    <TextView
+        android:padding="10sp"
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001" />
+
+    <ProgressBar
+        android:id="@+id/real"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16" />
+    <LinearLayout
+        android:visibility="gone"
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16">
+
+
+        <TextView
+            style="@style/common"
+            android:id="@+id/a1"
+            android:text="A1"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:layout_marginTop="10sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/a2"
+                android:gravity="center"
+                android:text="A2"
+                style="@style/common"
+                />
+
+            <TextView
+                android:id="@+id/a3"
+                style="@style/common"
+                android:text="A3"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginTop="50sp">
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5">
+
+                <TextView
+                    android:id="@+id/a4"
+                    style="@style/common"
+                    android:text="A4" />
+
+                <TextView
+                    android:id="@+id/a5"
+                    style="@style/common"
+                    android:text="A5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+
+                <TextView
+                    android:id="@+id/a6"
+                    style="@style/common"
+                    android:text="A6" />
+
+                <TextView
+                    android:id="@+id/a7"
+                    style="@style/common"
+                    android:text="A7" />
+
+                <TextView
+                    android:id="@+id/a8"
+                    style="@style/common"
+                    android:text="A8" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginTop="10sp">
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5">
+
+                <TextView
+                    android:id="@+id/a9"
+                    style="@style/common"
+                    android:text="A9" />
+
+                <TextView
+                    android:id="@+id/a10"
+                    style="@style/common"
+                    android:text="A10" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+
+                <TextView
+                    style="@style/common"
+                    android:id="@+id/a11"
+                    android:text="A11" />
+
+                <TextView
+                    android:id="@+id/a12"
+                    style="@style/common"
+                    android:text="A12" />
+
+                <TextView
+                    android:id="@+id/a13"
+                    style="@style/common"
+                    android:text="A13" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginTop="10sp"
+            >
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5">
+
+                <TextView
+                    style="@style/common"
+                    android:id="@+id/a14"
+                    android:text="A14" />
+
+                <TextView
+                    android:id="@+id/a15"
+                    style="@style/common"
+                    android:text="A15" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+
+                <TextView
+                    style="@style/common"
+                    android:id="@+id/a16"
+                    android:text="A16" />
+
+                <TextView
+                    style="@style/common"
+                    android:id="@+id/a17"
+                    android:text="A17" />
+
+                <TextView
+                    style="@style/common"
+                    android:id="@+id/a18"
+                    android:text="A18" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginTop="10sp">
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5">
+
+                <TextView
+                    android:id="@+id/a19"
+                    style="@style/common"
+                    android:text="A19" />
+
+                <TextView
+                    android:id="@+id/a20"
+                    style="@style/common"
+                    android:text="A20" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+
+                <TextView
+                    style="@style/common"
+                    android:id="@+id/a21"
+                    android:text="A21" />
+
+                <TextView
+                    android:id="@+id/a22"
+                    style="@style/common"
+                    android:text="A22" />
+
+                <TextView
+                    android:id="@+id/a23"
+                    style="@style/common"
+                    android:text="A23" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginTop="10sp">
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5">
+
+                <TextView
+                    android:id="@+id/a24"
+                    style="@style/common"
+                    android:text="A24" />
+
+                <TextView
+                    android:id="@+id/a25"
+                    style="@style/common"
+                    android:text="A25" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0sp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5">
+
+                <TextView
+                    android:id="@+id/a26"
+                    style="@style/common"
+                    android:text="A26" />
+
+                <TextView
+                    android:id="@+id/a27"
+                    style="@style/common"
+                    android:text="A27" />
+
+                <TextView
+                    android:id="@+id/a28"
+                    style="@style/common"
+                    android:text="A28" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:layout_marginTop="10sp">
+
+            <TextView
+                android:id="@+id/a29"
+                style="@style/common"
+                android:text="A29" />
+
+            <TextView
+                android:id="@+id/a30"
+                style="@style/common"
+                android:text="A30" />
+
+            <TextView
+                android:id="@+id/a31"
+                style="@style/common"
+                android:text="A31" />
+
+            <TextView
+                android:id="@+id/a32"
+                style="@style/common"
+                android:text="A32" />
+
+            <TextView
+                android:id="@+id/a33"
+                style="@style/common"
+                android:text="A33" />
+
+            <TextView
+                android:id="@+id/a34"
+                style="@style/common"
+                android:text="A34" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/book"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/curve"
+        android:backgroundTint="#3F51B5"
+        android:layout_marginBottom="10sp"
+        android:text="Book"
+        android:textColor="@color/white"
+        android:padding="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.916"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
+        app:layout_constraintVertical_bias="1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
